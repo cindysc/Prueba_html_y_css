@@ -1,8 +1,10 @@
 html body{
     font-family: 'Montserrat', sans-serif;
 }
-
-@media (max-width: 767px){
+body{
+    margin-top: 70px;
+}
+@media (max-width: 768px){
     .logo{
         max-width: 220px;
     }
@@ -25,23 +27,8 @@ html body{
     .header_articulo h1{
         padding-top: 30px;
     }
-
-
-    .jumbotron{
-      background-image: none;
-      color: #017AB2;
-      margin-top: 0;
-      text-align: center;
-    }
-    .banner-xs{
-      width:100%;
-      margin-top: 70px;
-    }
-    .jumbotron h1{
-      font-size: 45px !important;
-    }
-
 }
+
 @media (max-width: 991px){
     .act_foto img{
         padding: 0;
@@ -80,49 +67,31 @@ p{
 .navbar-default .navbar-nav li a:hover{
     color: #235cad;
 }
-/* head
-.alternativo img{
-    height: 250px;
-}
-.head{
+/* head */
+.head {
     background-image: url('img/header_blanco.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    background-repeat: no-repeat;
-    min-height: 490px;
-    text-align: center;
-    margin-top: 50px;
-}
-.head2 h1{
-    font-size: 28px;
-    padding: 20px 0 20px 0;
-    color: #ffffff;
-}
-.head2{
-    background-color: #235cad;
-}
-.head h1{
-    padding: 140px 0 0 0;
     color: #235cad;
-    max-width: 700px;
-    text-align: left;
-    font-weight: 700;
-}*/
-
-/*BANNER*/
-.clearfix {
-    clear: both;
+    min-height: 400px
 }
-.principal {
-    background-image: url('img/header2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    color: #ffffff;
-    margin-top: 70px;
-    padding-bottom: 0;
-    background-color: white;
-    max-height: 490px
+.titular_head{
+    padding: 70px 0 0 0;
+}
+.titular_head h1{
+    font-size: 3.4em;
+    font-weight: 600;
+}
+.titular_head p{
+    font-size: 1.4em;
+}
+.head_movil{
+    color: #235cad;
+    text-align: center;
+}
+.titular_head_movil{
+    padding: 30px 10px 30px 10px;
 }
 
 
