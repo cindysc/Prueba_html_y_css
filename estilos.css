@@ -21,12 +21,9 @@ body{
         padding: 30px;
         max-width: 400px
     }
-    .header_articulo{
-        margin-top: 30px;
-    }
-    .header_articulo h1{
-        padding-top: 30px;
-    }
+    .navbar li a {
+    padding-top: 10px;
+}
 }
 
 @media (max-width: 991px){
@@ -56,16 +53,18 @@ p{
 .navbar-default .navbar-nav .active a {
     box-shadow: none;
     color: #235cad;
-    border-bottom: 5px solid #235cad;
+    font-weight: 600;
     background-color: transparent;
     background-image: none;
 }
 .navbar-nav li a{
     font-weight: 500;
     height: 70px;
+    font-size: 16px;
 }
 .navbar-default .navbar-nav li a:hover{
     color: #235cad;
+    font-weight: 600;
 }
 /* head */
 .head {
@@ -261,12 +260,23 @@ footer{
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
-    min-height: 170px;
-    text-align: center;
-    margin-top: 50px;
+    height: 150px;
+}
+.header_articulo_movil{
+    background-image: url('img/header_blanco.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+.header_articulo_movil h1{
+    padding: 20px 0 0 0;
+    color: #235cad;
+    text-align: left;
+    font-weight: 700;
 }
 .header_articulo h1{
-    padding: 50px 0 0 0;
+    padding: 20px 0 0 0;
     color: #235cad;
     text-align: left;
     font-weight: 700;
